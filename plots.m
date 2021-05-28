@@ -5,7 +5,7 @@ function plots(xq,compressed,decompressed)
     grid on;
     xlabel('samples')
     ylabel('xq(t)')
-    title('Input signal quantized')
+    title('Input signal')
     
     subplot(3,2,4);
     cla(gca);
